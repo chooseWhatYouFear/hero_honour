@@ -1,0 +1,49 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>王者荣耀</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/hero_honour.css' %}">
+</head>
+<body>
+
+    <div id="biggest">
+
+        <div id="sup">
+            {% for content in data.data %}
+            <div class="small">
+                <img src='{{ content.src }}' width="125px" height="185px">
+                <div class="explain">
+                    <label class="label1"><b>{{ content.hero_name }}</b></label><br>
+                    <span class="span1">{{ content.username }}</span>
+                    <div>
+                        <img src="{{ content.sub_src }}" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+
+            {% endfor %}
+        </div>
+
+
+        <div id="sub">
+            {% for content in data.data1 %}
+            <div class="small">
+                <img src='{{ content.src }}' width="125px" height="185px">
+                <div class="explain">
+                    <label class="label1"><b>{{ content.hero_name }}</b></label><br>
+                    <span class="span1">{{ content.username }}</span>
+                    <div>
+                        <img src="{{ content.sub_src }}" alt="">
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+    </div>
+</body>
+</html>

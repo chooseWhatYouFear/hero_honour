@@ -1,0 +1,52 @@
+body{
+    background: url("http://shp.qpic.cn/ishow/2735062714/1561616373_1186005513_32331_sProdImgNo_2.jpg/0") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#biggest{
+    width: 720px;
+    height: 520px;
+    margin: auto;
+    background: url("http://img5.imgtn.bdimg.com/it/u=2472311736,3890764311&fm=26&gp=0.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 20px;
+}
+#sup{
+    width: 700px;
+    height: 225px;
+
+}
+#sub{
+    width: 700px;
+    height: 225px;
+    margin-top: 50px;
+}
+.small{
+    width: 125px;
+    height: 225px;
+    margin-left: 13px;
+    float: left;
+    text-align:center;
+    position:relative;
+    background-color: black;
+}
+img{
+    position:relative;
+}
+label{
+
+    color: #0d378d;
+}
+span{
+    color: white;
+
+}
+.explain{
+    position:relative;
+    bottom:50px;
+}
+.explain div{
+    position: relative;
+    top: 15px;
+}
