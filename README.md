@@ -1,6 +1,10 @@
 # hero_honour
 django做的一个关于王者荣耀的小项目
-
+<style>
+img{
+  float:left;
+ }
+</style>
  <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1562685104160&di=f27a6b86a63c849c2c8789f3f9338d82&imgtype=0&src=http%3A%2F%2Fpic.87g.com%2Fupload%2F2017%2F0102%2F20170102085935367.jpg" alt="" width="70px" height="75px" >
 <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1562685104244&di=424e8eb60fd8752a9e53145c34eff764&imgtype=0&src=http%3A%2F%2Fimage.uczzd.cn%2F14357560211971134267.jpg" alt="" width="70px" height="75px" >
 <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1562685104244&di=c113767f171540f2bb4f5c461b3d55d3&imgtype=0&src=http%3A%2F%2Fimg1.famulei.com%2Fm%2F0%2Fp%2F178%2F1715462358279.jpg" alt="" width="70px" height="75px" >
